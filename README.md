@@ -12,8 +12,8 @@ The whole project is implemented using pytorch in jupyter notebook.
 
 ## Files Description
 
-- **KanjiVG-SVG** It consist of a single zipped folder with 11456 files of Kanji VG in SVG format.
-- **KanjiVG-Pixel** It consist of a single zipped folder with 11456 files of Kanji VG in PNG format converted from KanjiVG-SVG.
+- **KanjiVG-SVG** It consist of a single zipped folder with 11456 files of Kanji VG in SVG format. The vector size is 64 by 64.
+- **KanjiVG-Pixel** It consist of a single zipped folder with 11456 files of Kanji VG in PNG format converted from KanjiVG-SVG. The image size is 28 by 28 pixels.
 - **SVG2PNG.ipynb** It is used to load and convert the images from SVG to PNG
 - **CNN-VAE.ipynb** It is used to build the CNN-VAE model using the jupyter notebook. It can be used independently to see how the model works.
 
