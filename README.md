@@ -6,6 +6,7 @@ The project until now consist of following steps:
 * Loading the SVG and converting into PNG file format.
 * Loading the PNG dataset and preprocessing.
 * Building and training a Convolutional Variational Autoencoder on the dataset.
+* Building and training a Convolutional Variational Autoencoder on the dataset.
 * Using the decoder to generate sample Kanji VG characters.
 
 The whole project is implemented using pytorch in jupyter notebook.
@@ -16,6 +17,7 @@ The whole project is implemented using pytorch in jupyter notebook.
 - **KanjiVG-Pixel** It consist of a single zipped folder with 11456 files of Kanji VG in PNG format converted from KanjiVG-SVG. The image size is 28 by 28 pixels.
 - **SVG2PNG.ipynb** It is used to load and convert the images from SVG to PNG
 - **CNN-VAE.ipynb** It is used to build the CNN-VAE model using the jupyter notebook. It can be used independently to see how the model works.
+- **VAE.ipynb** It is used to build the VAE model using the jupyter notebook. It can be used independently to see how the model works.
 
 ## Installation
 
